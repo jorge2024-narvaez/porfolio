@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>reflexion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header_superior">
+            <div class="logo">
+                <img src="#" alt="">
+            </div>
+            <div class="search">
+                <img src="../img/logo header.jpg" alt="">
+            </div>
+            
+        </div>
+
+        <div class="container__menu">
+            <div class="menu">
+                <input type="checkbox" id="check__menu">
+                <label for="check__menu" id="label__check">
+                    <i class="fas fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html" id="selected"></a></li>
+                        <li><a href="#">institucion</a>
+                            <ul>
+                                <li><a href="../page/Historia.html">historia</a></li>
+                                <li><a href="../page/autoridades.html">autoridades</a></li>
+                                <li><a href="../page/organigrama.html">organigrama</a></li>
+                                <li><a href="../page/geolicalizacion .html">geolocalizacion</a></li>
+                            </ul>
+                            <li><a href="#">practica docente</a>
+                            <ul>
+                                <li><a href="#">reflexion  </a></li>
+                                <li><a href="../page/aula hidrica .html">aula hidrida </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../page/microclase.html">microclase</a></li>
+                        <li><a href="../page/recursos.html">recursos</a></li>
+                        
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+      
+    </header>
+
+    <main>
+       <!-- Página 2: Artículos -->
+       <section id="articles" class="page">
+        <h1>Artículos</h1>
+        <div id="indice">
+            <h2>Índice de Temas</h2>
+            <ul>
+                <li><a href="#art1">Aprendizaje ubicuo</a></li>
+                <li><a href="#art2">Enseñar y aprender con tic</a></li>
+                <li><a href="#art3">Aprendizaje oblicuo cope</a></li>
+                <li><a href="#art4">Integracion curricular de tic</a></li>
+                <li><a href="#art5">Conociendo la escuela</a></li>
+                <li><a href="#art6">La escuela como organizacion inteligente</a></li>
+                <li><a href="#art7">Todos pueden aprender</a></li>
+                <li><a href="#art8">Gestionar la escuela con aulas heteregoneas</a></li>
+                <li><a href="#art9">Competencias digitales</a></li>
+
+            </ul>
+        </div>
+        <div class="article" id="art1">
+            <h2>Aprendizaje ubicuo</h2>
+            <hr>
+            <embed src="../doc/APRENDIZAJE OBICUO.pdf" type="application/pdf" width="420px" height="630px"/>
+                    
+                                             
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art2">
+            <h2>ENSEÑAR y aprender con tic</h2>
+            <hr>
+            <embed src="../doc/Enseñar y aprender con tic.pdf" type="application/pdf" width="420px" height="630px"/>
+                                
+                                                   
+
+                 <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art3">
+            <h2>Aprendizaje oblicuo cope</h2>
+            <hr>
+            <embed src="../doc/Aprendizaje oblicuo cope.pdf" type="application/pdf" width="420px" height="630px"/>
+                    
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art4">
+            <h2>Integracion curricular de tic</h2>
+            <hr>
+            <embed src="../doc/Integración curricular de tic concepto y modelos.pdf" type="application/pdf" width="420px" height="630px"/>
+            
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art5">
+            <h2>Conociendo la escuela</h2>
+            <hr>
+            <embed src="../doc/CONDUCIENDO LA ESCUELA.pdf" type="application/pdf" width="420px" height="630px"/>
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art6">
+            <h2>La escuela como organizacion inteligente</h2>
+            <hr>
+            <embed src="../doc/La Escuela como organización inteligente 1.pdf" type="application/pdf" width="420px" height="630px"/>
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art7">
+            <h2>Todos pueden aprender</h2>
+            <hr>
+            <embed src="../doc/todos pueden aprender.pdf" type="application/pdf" width="420px" height="630px"/>
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art8">
+            <h2>Gestionar la escuela con aulas heteregoneas</h2>
+            <hr>
+            <embed src="../doc/gestionar las escuelas como aulas heterogéneas.pdf" type="application/pdf" width="420px" height="630px"/>
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+        <div class="article" id="art9">
+            <h2>Competencias digitales </h2>
+            <hr>
+            <embed src="../doc/competencias digitales.pdf" type="application/pdf" width="420px" height="630px"/>
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </div>
+    </section>
+</main>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const nav = document.getElementById("nav");
+
+    hamburger.addEventListener("click", () => {
+        nav.classList.toggle("show");
+    });
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+    </main>
+    <footer>
+        <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div class="colum1">
+                    <div class="logo">
+                        <img src="../img/logo epet.jpg" alt="">
+                    </div>
+                    <h2>Practica 2 - observacion institucion</h2>
+                    <label> Profesoras:
+                        	Natalia Soria
+                        -	Lorenzo María
+                        - Martinez Nadia
+                        
+                    </label>
+                   
+                </div>
+
+                <div class="colum2">
+
+                    <h2>Redes Sociales</h2>
+
+                    <div class="row">
+                        <img src="../img/facebook.png">
+                        <label>Siguenos en Facebook</label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/twitter.png">
+                        <label>Siguenos en Twitter</label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/instagram.png">
+                        <label>Siguenos en Instagram</label>
+                    </div>
+                   
+                </div>
+
+                <div class="colum3">
+
+                    <h2>Alumnos</h2>
+
+                    <div class="row2">
+                        <img src="../img/house.png">
+                        <label> Jorge Narvaez 
+                            Dni:27041553
+                        </label>
+                    </div>
+                    <div class="row2">
+                        <img src="../img/house.png">
+                            <label> Marcela Adriana Tobares
+                            Dni:29690751
+                        </label>
+                    </div>
+                    
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2024 Todos los Derechos Reservados | <a href="">Jorge Narvaez-Marcela Tobares</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Tecnologia de la informacion y comunicacion</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>
+        
+        
+    </footer>
+      
+    
+</body>
+</html>

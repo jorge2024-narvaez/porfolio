@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos2.css">
+    <title>recursos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header_superior">
+            <div class="logo">
+                <img src="#" alt="">
+            </div>
+            <div class="search">
+                <img src="../img/logo header.jpg" alt="">
+            </div>
+            
+        </div>
+
+        <div class="container__menu">
+            <div class="menu">
+                <input type="checkbox" id="check__menu">
+                <label for="check__menu" id="label__check">
+                    <i class="fas fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html" id="selected"></a></li>
+                        <li><a href="#">institucion</a>
+                            <ul>
+                                <li><a href="../page/Historia.html">historia</a></li>
+                                <li><a href="../page/autoridades.html">autoridades</a></li>
+                                <li><a href="../page/organigrama.html">organigrama</a></li>
+                                <li><a href="../page/geolicalizacion .html">geolocalizacion</a></li>
+                            </ul>
+                            <li><a href="#">practica docente</a>
+                            <ul>
+                                <li><a href="../page/reflexion.html">reflexion  </a></li>
+                                <li><a href="../page/aula hidrica .html">aula hidrida </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../page/microclase.html">microclase</a></li>
+                        <li><a href="#">recursos</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+      
+    </header>
+
+    <main>
+         <!-- Página 3: Recursos Educativos -->
+         <section id="resources" class="page">
+            <h1>Recursos Educativos</h1>
+            <h2>Momentos de la Clase</h2>
+            <p>Explicación de los momentos de la clase...</p>
+            <h2>Material de Investigación</h2>
+            <p>Proporcionamos material de investigación para profundizar en los temas tratados en clase...</p>
+             <embed src="../doc/Manual de informática- final 2024.pdf" type="application/pdf" width="420px" height="630px"/>
+            <h2>Evaluación</h2>
+            <h2>Sistema operativo</h2>
+            <a href="https://wordwall.net/resource/75778170">Realizar Evaluación sistema operativo</a>
+            <h2>Programa informatico</h2>
+            <a href="https://wordwall.net/es/resource/75796730">Realizar Evaluación sistema operativo</a>
+            <h2>Algoritmo</h2>
+            <a href="https://wordwall.net/es/resource/75659327">Realizar Evaluación sistema operativo</a>
+            <h2>Videos Educativos</h2>
+            <div class="videos">
+                <iframe src="https://www.youtube.com/embed/fsuroRYmagw?si=iSDW-RL6UWs5dFUO" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/Ko2PJzIzH_0?si=gf5t8ZzbXYG7PCfs" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/U3CGMyjzlvM?si=_dkHUC2NubZRbWq_" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const nav = document.getElementById("nav");
+
+        hamburger.addEventListener("click", () => {
+            nav.classList.toggle("show");
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+        
+    </main>
+    <footer>
+        <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div class="colum1">
+                    <div class="logo">
+                        <img src="../img/logo epet.jpg" alt="">
+                    </div>
+                    <h2>Practica 2 - observacion institucion</h2>
+                    <label> Profesoras:
+                        	Natalia Soria
+                        -	Lorenzo María
+                        - Martinez Nadia
+                        
+                    </label>
+                   
+                </div>
+
+                <div class="colum2">
+
+                    <h2>Redes Sociales</h2>
+
+                    <div class="row">
+                        <img src="../img/facebook.png">
+                        <label>Siguenos en Facebook</label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/twitter.png">
+                        <label>Siguenos en Twitter</label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/instagram.png">
+                        <label>Siguenos en Instagram</label>
+                    </div>
+                   
+                </div>
+
+                <div class="colum3">
+
+                    <h2>Alumnos</h2>
+
+                    <div class="row2">
+                        <img src="../img/house.png">
+                        <label> Jorge Narvaez 
+                            Dni:27041553
+                        </label>
+                    </div>
+                    <div class="row2">
+                        <img src="../img/house.png">
+                            <label> Marcela Adriana Tobares
+                            Dni:29690751
+                        </label>
+                    </div>
+                    
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2024 Todos los Derechos Reservados | <a href="">Jorge Narvaez-Marcela Tobares</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Tecnologia de la informacion y comunicacion</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>
+        
+        
+    </footer>
+      
+    
+</body>
+</html>
